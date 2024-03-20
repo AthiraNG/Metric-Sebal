@@ -13,7 +13,7 @@ The EF is the evaporative fraction, which is calculated for the time of satellit
 
 <img width="300" alt="Screenshot 2024-03-20 103845" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/4f48808f-cf76-4209-b73b-68a292772bd0">
 
-where Rn<sub></sub>24 is the daily average net radiation (Wm<sup></sup>-2), and G<sub></sub>24 is the daily average soil heat flux (Wms<sup></sup>-2) for soil and vegetation surfaces, which are usually assumed to be zero.
+where Rn<sub>24</sub> is the daily average net radiation (W m<sup>-2</sup>), and G<sub>24</sub> is the daily average soil heat flux (W ms<sup>-2</sup>) for soil and vegetation surfaces, which are usually assumed to be zero.
 
 ## Mapping Evapotranspiration with Internalized Calibration (METRIC)
 
@@ -22,17 +22,17 @@ ET is calculated at each pixel at the time of satellite overpass as:
 
 <img width="210" alt="Screenshot 2024-03-20 100335" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/fb0099f8-2ebc-4010-9f8f-c2b8be7fe41b">
 
-Here ETins is instantaneous ET (mmh <sup>-1</sup>), λ is the latent heat of vaporization (Jkg<sup>-1</sup>), and ρw is the density of water (kgm<sup>-3</sup>).
+Here ET<sub>ins</sub> is instantaneous ET (mm h <sup>-1</sup>), λ is the latent heat of vaporization (J kg<sup>-1</sup>), and ρw is the density of water (kg m<sup>-3</sup>).
 
 The reference ET fraction (ETrF) is calculated as:
 
 <img width="150" alt="Screenshot 2024-03-20 101929" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/0e9dad80-58db-4c51-b796-d76fe207980b">
 
-The ETrF computed for the time of satellite overpass is assumed to be the same as the ETrF over the 24-h average. Finally, the daily ET (ET24) at each pixel is computed as:
+The ETrF computed for the time of satellite overpass is assumed to be the same as the ETrF over the 24-h average. Finally, the daily ET (ET<sub>24</sub>) at each pixel is computed as:
 
 <img width="210" alt="Screenshot 2024-03-20 102834" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/2ac0fc54-7445-4a1d-8c57-845f952662fd">
 
-ETr 24 is the total 24-hour daily ETr (mmday<sup>-1</sup>) calculated using the standardized FAO-56 Penman-Monteith equation.
+ETr<sub>24</sub> is the total 24-hour daily ETr (mm day<sup>-1</sup>) calculated using the standardized FAO-56 Penman-Monteith equation.
 
 
 ## Resources
