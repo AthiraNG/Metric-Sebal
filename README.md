@@ -1,8 +1,6 @@
 # Surface Energy Balance Model 
 The Surface Energy Balance Algorithm over Land (SEBAL) is a widely used single-source energy balance model. This model is built on a theory that employs physical factors as well as empirical relationships. To address the limitation of the SEBAL, a METRIC-based evapotranspiration (ET) estimation model was developed. This model uses an automated internal calibration method that is almost like the SEBAL model for calculating sensible and latent energy.Both model uses climatic data to calculate Reference evapotranspiration (ET<sub>o</sub>) and it combines ground-based reference data with satellite data input to calculate the final ET. 
 
-The main key differences between SEBAL and METRIC include, in the SEBAL model, the H at the cold pixel is assumed to be zero, and the LE is calculated as the difference between net radiation and G, on the other hand, in METRIC, the ET at the hot pixel is set to zero, and the cold pixel is assumed to have an ET rate of 1.05 times the reference ET rate. The hot pixel in METRIC is defined as a non-agricultural area, where the surface temperature (Ts) is not influenced by crop transpiration.
-
 ## The Surface Energy Balance Algorithm over Land (SEBAL)
 
 The evaporative fraction at each pixel of the image is calculated using Rn, G, and H computations at the time of satellite overpass as:
@@ -36,7 +34,7 @@ ETr<sub>24</sub> is the total 24-hour daily ETr (mm day<sup>-1</sup>) calculated
 
 ## Output
 
-
+<img width="4000" alt="Picture1]" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/51070d79-2009-4d41-80e4-a6e7b9eb5a69">
 
 ## Resources
 
