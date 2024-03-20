@@ -34,6 +34,9 @@ The ETrF computed for the time of satellite overpass is assumed to be the same a
 
 ETr<sub>24</sub> is the total 24-hour daily ETr (mm day<sup>-1</sup>) calculated using the standardized FAO-56 Penman-Monteith equation.
 
+## Output
+
+
 
 ## Resources
 
