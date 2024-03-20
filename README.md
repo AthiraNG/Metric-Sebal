@@ -22,11 +22,11 @@ ET is calculated at each pixel at the time of satellite overpass as:
 
 Here ET<sub>ins</sub> is instantaneous ET (mm h <sup>-1</sup>), λ is the latent heat of vaporization (J kg<sup>-1</sup>), and ρw is the density of water (kg m<sup>-3</sup>).
 
-The reference ET fraction (ETrF) is calculated as:
+The reference ET fraction (ETr<sub>F</sub>) is calculated as:
 
 <img width="150" alt="Screenshot 2024-03-20 101929" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/0e9dad80-58db-4c51-b796-d76fe207980b">
 
-The ETrF computed for the time of satellite overpass is assumed to be the same as the ETrF over the 24-h average. Finally, the daily ET (ET<sub>24</sub>) at each pixel is computed as:
+The ETr<sub>F</sub> computed for the time of satellite overpass is assumed to be the same as the ETrF over the 24-h average. Finally, the daily ET (ET<sub>24</sub>) at each pixel is computed as:
 
 <img width="210" alt="Screenshot 2024-03-20 102834" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/2ac0fc54-7445-4a1d-8c57-845f952662fd">
 
