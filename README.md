@@ -32,9 +32,9 @@ The ETr<sub>F</sub> computed for the time of satellite overpass is assumed to be
 
 ETr<sub>24</sub> is the total 24-hour daily ETr (mm day<sup>-1</sup>) calculated using the standardized FAO-56 Penman-Monteith equation.
 
-## Output
+### Output
 
-<img width="4000" alt="Picture1]" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/51070d79-2009-4d41-80e4-a6e7b9eb5a69">
+<img width="4500" alt="Picture1]" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/51070d79-2009-4d41-80e4-a6e7b9eb5a69">
 
 ## Resources
 
