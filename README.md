@@ -11,9 +11,15 @@ Here ETins is instantaneous ET (mmh <sup>-1</sup>), λ is the latent heat of vap
 
 The reference ET fraction (ETrF) is calculated as:
 
-<img width="130" alt="Screenshot 2024-03-20 101929" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/0e9dad80-58db-4c51-b796-d76fe207980b">
+<img width="140" alt="Screenshot 2024-03-20 101929" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/0e9dad80-58db-4c51-b796-d76fe207980b">
 
 The ETrF computed for the time of satellite overpass is assumed to be the same as the ETrF over the 24-h average. Finally, the daily ET (ET24) at each pixel is computed as:
 
-<img width="130" alt="Screenshot 2024-03-20 101929" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/0e9dad80-58db-4c51-b796-d76fe207980b">
+<img width="200" alt="Screenshot 2024-03-20 102834" src="https://github.com/AthiraNG/Metric-Sebal/assets/129937610/2ac0fc54-7445-4a1d-8c57-845f952662fd">
+
+ETr 24 is the total 24-hour daily ETr (mmday<sup>-1</sup>) calculated using the standardized FAO-56 Penman-Monteith equation.
+
+# SEBAL
+
+The evaporative fraction at each pixel of the image is calculated using Rn, G, and H computations at the time of satellite overpass as:
 
