@@ -1,7 +1,7 @@
-## Surface energy balance model (SEBAL and METRIC)
+# Surface energy balance model (SEBAL and METRIC)
 The Surface Energy Balance Algorithm over Land (SEBAL) is a widely used single-source energy balance model. This model is built on a theory that employs physical factors as well as empirical relationships. To address the limitation of the SEBAL, a METRIC-based evapotranspiration (ET) estimation model was developed. This model uses an automated internal calibration method that is almost like the SEBAL model for calculating sensible and latent energy.Both model uses climatic data to calculate Reference evapotranspiration (ET<sub>o</sub>) and it combines ground-based reference data with satellite data input to calculate the final ET. The main key differences between SEBAL and METRIC include, in the SEBAL model, the H at the cold pixel is assumed to be zero, and the LE is calculated as the difference between net radiation and G, On the other hand, in METRIC, the ET at the hot pixel is set to zero, and the cold pixel is assumed to have an ET rate of 1.05 times the reference ET rate. The hot pixel in METRIC is defined as a non-agricultural area, where the surface temperature (Ts) is not influenced by crop transpiration.
 
-# METRIC
+## METRIC
 The METRIC model is an image processing model for remote sensing that calculates instantaneous ET values as a residual of the surface energy balance equation.
 ET is calculated at each pixel at the time of satellite overpass as:
 
@@ -19,7 +19,7 @@ The ETrF computed for the time of satellite overpass is assumed to be the same a
 
 ETr 24 is the total 24-hour daily ETr (mmday<sup>-1</sup>) calculated using the standardized FAO-56 Penman-Monteith equation.
 
-# SEBAL
+## SEBAL
 
 The evaporative fraction at each pixel of the image is calculated using Rn, G, and H computations at the time of satellite overpass as:
 
@@ -27,3 +27,8 @@ The evaporative fraction at each pixel of the image is calculated using Rn, G, a
 
 The EF is the evaporative fraction, which is calculated for the time of satellite overpass is assumed to be constant over the 24-hour period of the image acquisition day. As a result, the daily ET at each image pixel is calculated as:
 
+## Resources
+
+#### [SEBAL model in the Nansi Lake Wetland of China](https://www.sciencedirect.com/science/article/pii/S0895717710005303)
+#### [METRIC Model](https://www.researchgate.net/publication/228615269_Satellite-Based_Energy_Balance_for_Mapping_Evapotranspiration_With_Internalized_Calibration_METRIC_-_Model)
+#### [Comparison of Four Different Energy Balance Models for Estimating Evapotranspiration](https://www.mdpi.com/2073-4441/8/1/9)
